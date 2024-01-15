@@ -5,7 +5,7 @@
 }
 .backgraundofheader{
     width: 100%;
-    height: 500px;
+    height: 815spx;
     background-color: var(--dark-blue, #172755);
 
 }
@@ -19,6 +19,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 74px;
 }
 .leftofheader{
     display:flex;
@@ -41,6 +42,52 @@ button{
     height: 40px;
     border-radius: 68px;
     border: 1px solid #465B95;
+}
+button.header{
     color:#465B95;
     background-color: #172755;
+}
+button.tryforfree{
+    color: white;
+    background: #EF2A82;
+    margin-top: 49px;
+}
+
+
+div.headertext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 74px;
+}
+div.headertext >div{
+    width: 48%;
+    align-items: center;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+p.headertxt{
+    color: var(--text-secondary, #8794BA);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.imgofheader{
+    display: inline-block;
+    width: 30%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+}
+.imgofheader:hover{
+    width: 40%;
+    height: 100px;
+
 }
