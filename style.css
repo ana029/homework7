@@ -41,7 +41,7 @@ ul, li{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 20px;
+    padding-left: 36px;
 }
 button{
     width: 160px;
@@ -58,7 +58,15 @@ button.tryforfree{
     background: #EF2A82;
     margin-top: 49px;
 }
-
+button.order{
+    border: 1px solid #2A407C;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #0F1F4B;
+    color:white;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
 
 div.headertext{
     display: flex;
@@ -155,6 +163,12 @@ div.automatedReports, div.addressYourNeeds, div.PrebuiltDashboard{
 }
 div.automatedReports > div, div.addressYourNeeds > div, div.PrebuiltDashboard >div{
     width: 40%;
+    
+}
+.shadow{
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+    border-radius: 30px;
+
 }
 .headinOfFooter{
     padding-top: 270px;
@@ -175,7 +189,7 @@ p.textoffooter{
     line-height: 150%;
     padding-bottom: 80px;
 }
-div.pricingPlans{
+div.pricingPlans, div.footeritems{
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -186,4 +200,42 @@ div.pricingPlans >div{
     border-radius: 30px;
     opacity: 0.7;
     background: #0F1F4B;
+    text-align: center;
+}
+div.footeritems >div{
+    margin-top: 65px;
+    align-items: center;
+}
+#fotter1{
+    width: 20%;
+}
+#fotter2{
+    width: 50%;
+}
+#fotter3{
+    width: 20%;
+    display: flex;
+    gap: 30px;
+}
+p.definitionofplans{
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+
+}
+p.priceofplans{
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 66px;
+}
+div.pricingPlans >div:hover{
+    background: white;
+    
 }
