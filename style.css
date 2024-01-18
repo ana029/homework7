@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.backgraundofheader{
+.backgraundofheader, .backgraundofFooter{
     width: 100%;
     height: 815spx;
     background-color: var(--dark-blue, #172755);
-
+    
 }
 
 .wraper{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; 
+    margin-bottom: 130px;
 }
 header{
     display: flex;
@@ -72,7 +73,8 @@ h1{
     line-height: 120%;
     margin-bottom: 15px;
 }
-p.headertxt{
+
+p.alltext{
     color: var(--text-secondary, #8794BA);
     font-size: 18px;
     font-style: normal;
@@ -102,6 +104,7 @@ h2{
     padding-top: 40px;
 
 }
+
 .mainfeaturestxt{
     color: var(--text-secondary, #8794BA);
     text-align: center;
@@ -109,11 +112,14 @@ h2{
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    padding-top: 30px;
+    padding-bottom: 80px;
 }
 div.features{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 div.features > div{
     width: 30%;
@@ -136,4 +142,12 @@ p.features{
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+div.automatedReports, div.addressYourNeeds, div.PrebuiltDashboard{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+div.automatedReports > div, div.addressYourNeeds > div, div.PrebuiltDashboard >div{
+    width: 40%;
 }
