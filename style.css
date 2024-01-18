@@ -26,6 +26,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-bottom: 74px;
+    padding-top: 50px;
 }
 .leftofheader{
     display:flex;
@@ -86,7 +87,10 @@ h1{
     line-height: 120%;
     margin-bottom: 15px;
 }
-
+.chartofheader{
+    background-color: white;
+    border-radius: 30px;
+}
 p.alltext{
     color: var(--text-secondary, #8794BA);
     font-size: 18px;
